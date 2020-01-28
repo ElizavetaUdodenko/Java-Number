@@ -10,9 +10,9 @@ public class Number {
         System.out.println(s2 + "(int) " + Integer.MAX_VALUE);
         System.out.println(s1 + "(long) " + Long.MIN_VALUE);
         System.out.println(s2 + "(long) " + Long.MAX_VALUE);
-        System.out.println(s1 + "(float) " + Float.MIN_VALUE);
+        System.out.println(s1 + "(float) " + (-Float.MAX_VALUE));
         System.out.println(s2 + "(float) " + Float.MAX_VALUE);
-        System.out.println(s1 + "(double) " + Double.MIN_VALUE);
+        System.out.println(s1 + "(double) " + (-Double.MAX_VALUE));
         System.out.println(s2 + "(double) " + Double.MAX_VALUE);
 
     }
